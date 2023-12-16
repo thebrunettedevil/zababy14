@@ -16,7 +16,7 @@
                 <button class="btn" id="noButton" onmouseover="moveButton()">No</button>
                 <script>
                     function nextPage() {
-                        window.location.href = "yes.html";
+                    window.location.href = "yes.html";
                     }
                     function moveButton() {
                         var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
