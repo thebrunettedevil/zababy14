@@ -18,7 +18,6 @@
                     function nextPage() {
                         window.location.href = "yes.html";
                     }
-                    
                     function moveButton() {
                         var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
                         var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
@@ -28,6 +27,5 @@
                 </script> 
             </div>
         </div>
-       
-    </body> 
+        </body> 
 </html>
